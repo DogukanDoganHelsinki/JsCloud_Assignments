@@ -109,3 +109,36 @@ const checkConditions =
   !hasSpace && maxLength <= 20 && !capitalLetter
     ? console.log("You passed the test")
     : console.log("Error");
+
+// Assignment 1.6: Discounted Price
+
+const price = 200;
+const discount = 15 / 100;
+const discountedPrice = price - price * discount;
+
+console.log(discountedPrice);
+
+// Assignment 1.7: Travel Time
+
+const distance = 500;
+const speed = 80;
+const travelTime = distance / speed;
+
+console.log(travelTime);
+
+// Assignment 1.8: Seconds in a Year
+
+const second = 1;
+const minute = second * 60;
+const hour = minute * 60;
+const day = hour * 24;
+const year = day * 365;
+
+console.log(year);
+
+// Assignment 1.9: Area of a Square
+
+const lengthOfSquareSide = process.argv[2];
+const areaOfSquare = lengthOfSquareSide ** 2;
+
+console.log("The area of the square is:", areaOfSquare);
